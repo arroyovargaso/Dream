@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+    <head>
+        <title>Dream land</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  href = "style.css"  type = "text/css"  rel = "stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link  href = "css/bootstrap.css"  type = "text/css"  rel = "stylesheet">
+        <link  href = "css/bootstrap.min.css"  type = "text/css"  rel = "stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+    <body style="background-color: blanchedalmond;">
+        <header>
+            <div>
+                <h1 style="color: black;
+                    text-align: center;
+                    font-size: 4em;">Shows</h1>
+            </div>
+            <form>
+                <div class="botones_eventos">
+                    <a href="Index.html"><input type="button" name="button" value="Inicio"></a>
+                    <a href="Shows/Spiderman.html"><input type="button" name="button" value="Spiderman"></a>
+                    <a href="Shows/Pepa Pig.html"><input type="button" name="button" value="Pepa Pig"></a>
+                    <a href="Shows/Frozen.html"><input type="button" name="button" value="Frozen"></a>
+                    <a href="Shows/Iron Man.html"><input type="button" name="button" value="Iron Man"></a>
+                    <a href="Shows/Minions.html"><input type="button" name="button" value="Minions"></a>
+                    <a href="Shows/Princesas.html"><input type="button" name="button" value="Princesas"></a>
+                </div><br>
+            </form>
+            <div class="container">
+                <div class="col-md-12">
+                    <div id="demo" class="carousel slide" data-ride="carousel">
+                        <!--Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li> 
+                            <li data-target="#demo" data-slide-to="2"></li> 
+                        </ul>
+                        <!-- Conenido Slides -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Imagenes/Eventos/Evento 1.jpeg" alt="imagen 1"  width="600px" height="350px" class="img-thumbnail">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Imagenes/Eventos/Evento 2.png" alt="imagen 2" width="600px" height="350px" class="img-thumbnail">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Imagenes/Eventos/Evento 3.jpeg" alt="imagen 3" width="600px" height="350px" class="img-thumbnail">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Imagenes/Eventos/Evento 4.png" alt="imagen 4"  width="600px" height="350px" class="img-thumbnail">
+                            </div>
+                        </div>
+                        <!-- Botones para desplazarte hacia la izquiera o a la derecha-->
+                        <div id="cambiar" style="font-size: 60px; color: red;">
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="prev">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+        </header>
+    </body>
+</html>
