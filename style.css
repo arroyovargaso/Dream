@@ -23,7 +23,7 @@ table {
 h1 {
     color: black;
     text-align: center;
-    font-size: 6em;
+    font-size: 4em;
 }
 h3{
     color: black;
@@ -150,7 +150,7 @@ img {
 .btnstyle1{
     color: black;
     height: 50px;
-    width: 437px;
+    width: 37px;
 }
 .botones_eventos {
     background-color: #419D87;
@@ -193,8 +193,8 @@ img {
 .botones_Personajes input {
     color: teal;
     font-family: 'Helvetica','Verdana','Monaco',sans-serif;
-    width: 485px; 
-    height: 75px;
+    width: 315px; 
+    height: 65px;
     border-color: red;
     margin-bottom: 10px;
     border-radius: 35px;
